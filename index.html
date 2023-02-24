@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Coex</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="md:flex bg-[#F1F9EF] font-['Montserrat', 'sans-serif']">
+        <div class="flex flex-col w-[90%] md:w-72 md:h-[33.33rem] shadow shadow-black  border-slate-400 mt-4 ml-8 bg-white">
+            <div class="w-[100%] md:w-[40%]">
+                <h1 class="text-4xl font-sans font-bold ml-5 mt-4 mb-4 text-slate-800 text-ellipsis ">Campus  Coex</h1>
+            </div>
+            <hr class="ml-4 mr-2">
+            <h1 class="text-2xl ml-5 mt-2 text-slate-800 font-extralight">Registrarse</h1>
+            <form class="ml-5 mt-2 " action="">
+                <label class="text font-bold text-slate-800 inline-block" for="GET-name">Nombre de usuario</label>
+
+                <input class="w-[94%]  border border-slate-300 text-slate-400  font-light h-10 inline-block" id="GET-name" type="text" name="name" placeholder="   Nombre de usuario">
+                <label class=" font-bold text-slate-800 inline-block" for="GET-name">  Contraseña</label>
+                <input class="w-[94%]  h-10 border border-slate-300 text-slate-400 font-light text-start inline-block" id="GET-name" type="text" name="name" placeholder="   Contraseña">
+                <div class="flex justify-center items-center">
+                    <input class="w-20 h-8 flex justify-center items-center mt-2 mb-1 bg-red-600 text-white font-bold" type="submit" value="Acceder">
+                </div>
+                <div>
+                <a class="md:w-[100%] w-[60%] flex text-red-700 font-bold text-left  hover:text-red-900 hover:underline" href="">¿Olvidó su nombre de usuario o contraseña?</a>
+                </div>
+                <label class="md:w-[100%] w-[60%] mt-7 flex font-bold text-left mr-20" href="">Algunos cursos permiten el acceso de invitados</label>
+                <div class="flex justify-center items-center">
+                    <button class="w-[15.8rem] h-9 mt-6 mb-2 flex justify-center bg-slate-200 text-slate-700 hover:bg-slate-300">Entrar como invitado</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <img class="w-[95%] h-full md:h-[33.4rem] mt-4 mb-15 ml-5" src="https://coexdevelopers.com/pluginfile.php/1/theme_fordson/logintopimage/1661355333/IMG_0578.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
